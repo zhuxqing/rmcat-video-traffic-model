@@ -5,13 +5,13 @@
 Network Working Group                                             X. Zhu
 Internet-Draft                                                   S. Mena
 Intended status: Informational                             Cisco Systems
-Expires: July 16, 2016                                         Z. Sarker
+Expires: January 7, 2017                                       Z. Sarker
                                                              Ericsson AB
-                                                        January 13, 2016
+                                                            July 6, 2016
 
 
           Modeling Video Traffic Sources for RMCAT Evaluations
-                draft-ietf-rmcat-video-traffic-model-00
+                draft-ietf-rmcat-video-traffic-model-01
 
 Abstract
 
@@ -40,7 +40,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on July 16, 2016.
+   This Internet-Draft will expire on January 7, 2017.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 1]
+Zhu, et al.              Expires January 7, 2017                [Page 1]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    publication of this document.  Please review these documents
@@ -83,12 +83,12 @@ Table of Contents
        6.2.1.  Main algorithm  . . . . . . . . . . . . . . . . . . .  10
        6.2.2.  Notes to the main algorithm . . . . . . . . . . . . .  12
      6.3.  Varying frame rate and resolution . . . . . . . . . . . .  12
-   7.  Comparing and Combining The Two Models  . . . . . . . . . . .  13
+   7.  Combining The Two Models  . . . . . . . . . . . . . . . . . .  13
    8.  Implementation Status . . . . . . . . . . . . . . . . . . . .  14
    9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  14
-   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  14
-     10.1.  Normative References . . . . . . . . . . . . . . . . . .  14
-     10.2.  Informative References . . . . . . . . . . . . . . . . .  14
+   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  15
+     10.1.  Normative References . . . . . . . . . . . . . . . . . .  15
+     10.2.  Informative References . . . . . . . . . . . . . . . . .  15
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  15
 
 1.  Introduction
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 2]
+Zhu, et al.              Expires January 7, 2017                [Page 2]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    On the other hand, evaluation results of a candidate RMCAT algorithm
@@ -165,9 +165,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 3]
+Zhu, et al.              Expires January 7, 2017                [Page 3]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    o  To delay in convergence to the target bitrate.
@@ -221,9 +221,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 4]
+Zhu, et al.              Expires January 7, 2017                [Page 4]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    encoding bitrate, and sometimes the spatial resolution and frame
@@ -277,9 +277,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 5]
+Zhu, et al.              Expires January 7, 2017                [Page 5]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    video content complexity and/or display type (e.g., higher R_max for
@@ -333,9 +333,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 6]
+Zhu, et al.              Expires January 7, 2017                [Page 6]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
      +---------------+--------------------------------+----------------+
@@ -389,9 +389,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 7]
+Zhu, et al.              Expires January 7, 2017                [Page 7]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    o  burst size K_r: ratio of a burst frame and average frame size at
@@ -445,9 +445,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 8]
+Zhu, et al.              Expires January 7, 2017                [Page 8]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    2) Using an actual live video encoder, encode the sequences at
@@ -501,9 +501,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                 [Page 9]
+Zhu, et al.              Expires January 7, 2017                [Page 9]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    Following these simplifications, we run the chosen encoder by setting
@@ -557,9 +557,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                [Page 10]
+Zhu, et al.              Expires January 7, 2017               [Page 10]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    or equal to the new value of R_v(t).  For the moment, we assume the
@@ -613,9 +613,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                [Page 11]
+Zhu, et al.              Expires January 7, 2017               [Page 11]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
        factor = R_v(t) / R_min
@@ -669,9 +669,9 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 
 
 
-Zhu, et al.               Expires July 16, 2016                [Page 12]
+Zhu, et al.              Expires January 7, 2017               [Page 12]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
 
    improve quality-of-experince (QoE) in the overall encoded video.  On
@@ -698,37 +698,66 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
    the transport module.  We leave the investigation of varying frame
    rate to future work.
 
-7.  Comparing and Combining The Two Models
+7.  Combining The Two Models
 
    It is worthwhile noting that the statistical and trace-based models
-   each has its own advantages and drawbacks.  Both models are fairly
-   simple to implement.  However, it takes significantly more effort to
+   each has its own advantages and drawbacks.  While both models are
+   fairly simple to implement, it takes significantly greater effort to
    fit the parameters of a statistical model to actual encoder output
-   data whereas a trace-based model does not require such fitting.  On
-   the other hand, once validated, the statistical model is more
-   flexible in mimicking a wide range of encoder/content behavior by
-   simply varying the correponding parameters in the model.  In
-   contrast, a trace-driven model relies, by definition, on additional
-   data collection efforts for accommodating new codecs or video
-   contents.
+   data whereas it is straightforward for a trace-based model to obtain
+   encoded frame size data.  On the other hand, once validated, the
+   statistical model is more flexible in mimicking a wide range of
+   encoder/content behaviors by simply varying the correponding
+   parameters in the model.  In this regard, a trace-driven model relies
+   -- by definition -- on additional data collection efforts for
+   accommodating new codecs or video contents.
 
    In general, trace-based model is more realistic for mimicking
    ongoing, steady-state behavior of a video traffic source whereas
    statistical model is more versatile for simulating transient events
    (e.g., when target rate changes from A to B with temporary bursts
-   during the transition).  Therefore, it may be desirable to combine
-   both approaches into a hybrid model, using traces for steady-state
-   and statistical model for transients.
+   during the transition).  It is also possible to combine both models
+   into a hybrid approach, using traces during steady-state and
+   statistical model during transients.
 
 
 
 
 
 
-Zhu, et al.               Expires July 16, 2016                [Page 13]
+Zhu, et al.              Expires January 7, 2017               [Page 13]
 
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
 
+
+                                         +---------------+
+                               transient | Generate next |
+                                 +------>| K_d transient |
+               +-------------+  /        |    frames     |
+        R_v(t) |   Compare   | /         +---------------+
+       ------->|   against   |/
+               |   previous  |
+               | target rate |\
+               +-------------+ \         +---------------+
+                                \        | Generate next |
+                                 +------>|  frame from   |
+                           steady-state  |    trace      |
+                                         +---------------+
+
+
+           Figure 3: Hybrid approach for modeling video traffic
+
+   As shown in Figure 3, the video traffic model operates in transient
+   state if the requested target rate R_v(t) is substantially higher
+   than previous target, or else it operates in steady state.  During
+   transient state, a total of K_d frames are generated by the
+   statistical model, resulting in 1 big burst frame (on average K_r
+   times larger than average frame size at the target rate) followed by
+   K_d-1 small frames.  When operating in steady-state, the video
+   traffic model simply generates a frame according to the trace-based
+   model given the target rate.  One example criteria for determining
+   whether the traffic model should operate in transient state is
+   whether the rate increase exceeds 20% of previous target rate.
 
 8.  Implementation Status
 
@@ -745,6 +774,17 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
 9.  IANA Considerations
 
    There are no IANA impacts in this memo.
+
+
+
+
+
+
+
+Zhu, et al.              Expires January 7, 2017               [Page 14]
+
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
+
 
 10.  References
 
@@ -777,15 +817,6 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
               Models", IEEE Communications Surveys and Tutorials, vol.
               15, no. 5, pp. 1778-1802., October 2013.
 
-
-
-
-
-Zhu, et al.               Expires July 16, 2016                [Page 14]
-
-Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
-
-
    [ns-2]     "The Network Simulator - ns-2",
               <http://www.isi.edu/nsnam/ns/>.
 
@@ -797,6 +828,19 @@ Internet-Draft  Modelling Video Traffic Sources for RMCAT   January 2016
               cisco/syncodecs>.
 
 Authors' Addresses
+
+
+
+
+
+
+
+
+
+Zhu, et al.              Expires January 7, 2017               [Page 15]
+
+Internet-Draft  Modelling Video Traffic Sources for RMCAT      July 2016
+
 
    Xiaoqing Zhu
    Cisco Systems
@@ -837,4 +881,16 @@ Authors' Addresses
 
 
 
-Zhu, et al.               Expires July 16, 2016                [Page 15]
+
+
+
+
+
+
+
+
+
+
+
+
+Zhu, et al.              Expires January 7, 2017               [Page 16]
